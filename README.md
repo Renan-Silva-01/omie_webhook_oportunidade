@@ -16,9 +16,13 @@ Este repositório contém scripts Python para integrar a API do Omie com o Googl
 
 ### Bibliotecas
 
-- `requests`
-- `google-api-python-client`
-- `google-auth`
-- `google-auth-httplib2`
-- `google-auth-oauthlib`
-- `flask`
+- `import os`
+- `import json`
+- `import requests`
+- `import re`
+- `from flask import Flask, request, jsonify, send_from_directory`
+- `from datetime import datetime`
+- `from google.oauth2 import service_account`
+- `from googleapiclient.discovery import build`
+- `import socket`
+- `import re`
