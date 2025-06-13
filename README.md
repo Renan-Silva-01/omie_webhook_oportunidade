@@ -1,4 +1,4 @@
-Omie Integration with Google Sheets
+Omie Integration com Google Sheets
 Este repositório contém scripts Python para integrar a API do Omie com o Google Sheets. Ele automatiza o processo de busca de informações de vendedores, clientes e oportunidades, atualizando planilhas de forma eficiente e gerenciando propostas comerciais.
 
 Funcionalidades
@@ -31,8 +31,6 @@ flask
 
 Instale as dependências com:
 
-Copiar
-Editar
 pip install -r requirements.txt
 Configuração
 Credenciais do Omie:
@@ -54,8 +52,6 @@ Substitua as variáveis OMIE_APP_KEY, OMIE_APP_SECRET, e GOOGLE_CREDS_FILE com o
 Como Usar
 Iniciar o Servidor Flask:
 
-Copiar
-Editar
 python app.py
 Integração:
 
